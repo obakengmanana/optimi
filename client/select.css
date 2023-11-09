@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+  
+  select {
+    width: 300px;
+  }
+  
+  .highlight {
+    background-color: rgb(255, 255, 153);
+  }
+  
+  .selectHighlight {
+    background-color: yellow;
+    -moz-border-radius: 5px;
+    /* FF1+ */
+    -webkit-border-radius: 5px;
+    /* Saf3-4 */
+    border-radius: 5px;
+    /* Opera 10.5, IE 9, Saf5, Chrome */
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+    /* FF3.5+ */
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+    /* Saf3.0+, Chrome */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+    /* Opera 10.5+, IE 9.0 */
+    padding: 1px 4px;
+    margin: 0 -4px;
+    color: #ff0000;
+  }
+  
+  .finded {
+    color: white;
+    background: #8A8A7B;
+  }
+  
+  .select2-search__field {
+    padding: 0;
+    background-color: whitesmoke;
+    background-image: url('https://www.w3schools.com/css/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+  }
+
+  .select2-results__group{
+    font-size: medium;
+    color: dodgerblue;
+    background-color: lightblue;
+  }
+
+
+  input {
+    width: 50%;
+    padding: 7px 5px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: red;
+    font-weight: bold;
+  }
+
+  .select2-rendered__match {
+    text-decoration: underline;
+    color: black;
+    background-color: yellow;
+  }
+
+ .select2-results__group{
+    height: 25px;
+  }
+  
